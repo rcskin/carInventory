@@ -1,0 +1,89 @@
+body {
+  padding: 20px;
+  background-color:azure;
+}
+
+h1, p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #FF69B4;
+  background-color: white;
+}
+
+/* Style the buttons with pastel colors */
+button {
+  background-color: #FFB6C1;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+/*Add padding to btn-grp and some space between them */
+.btn-grp {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.btn-grp .btn {
+  margin-right: 10px;
+}
+
+/* Add a hover effect to the buttons */
+button:hover {
+  background-color: #FF69B4;
+}
+
+/* Style the forms with a different background */
+form {
+  background-color: #E6E6FA;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  margin-bottom: 20px;
+}
+
+/* Add some padding to the button group for the form buttons */
+.form-btn-grp {
+  margin-right: 10px;
+}
+
+/* Style the table with gridlines, pastel colors, and an interesting font */
+table {
+  border-collapse: collapse;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #FFC0CB;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.add-new-btn {
+  margin-top: 20px;
+}
